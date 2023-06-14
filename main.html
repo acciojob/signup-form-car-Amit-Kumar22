@@ -10,51 +10,45 @@
 	<!-- the entire body must be written by student -->
 	<h2>Signup Form Car</h2>
 	<form action="/action_page.php" method="post">
-		<label for="Name">Name:
+		<label for="Name">Name: </label>
 	    <input type="text" id="Name" placeholder="Name">
-				 </label>
 		<br><br>
-		<label for="Email">Email:
+		<label for="Email">Email:</label>
 	    <input type="text" id="Email" placeholder="Email">
-				 </label>
 		<br><br>
-		<label for="gender">
-	    <input type="radio" value="MALE" name="gender" id="gender"> MALE
-				 </label>
+		<label for="gender_m">Select Your Gender</label><br>
+	    <input type="radio"  name="gender_m" id="gender_m"> MALE
 		<br>
-		<label for="gender1">
-	    <input type="radio" value="FEMALE" name="gender" id="gender1"> FEMALE
-				 </label>
+		<label for="gender_f"></label>
+	    <input type="radio"  name="gender_f" id="gender_f"> FEMALE
 		<br><br>
-		<h4>Select Your Car:</h4>
+		<label for="cars">Select Your Car</label>
 		<select name="car">
-	    <option  value="BMW">BMW</option>
-			<option  value="Audi">Audi</option>
-			<option  value="Mercedez">Mercedez</option>
+	    <option  value="BMW" id="cars">BMW</option>
+			<option  value="Audi" id="cars">Audi</option>
+			<option  value="Mercedez" id="cars">Mercedez</option>
 				 </select>
 		<br><br>
-		<label for="age">Age:
+		<label for="age">Age:</label>
 	    <input type="text"  id="gender" placeholder="age">
-				 </label>
+				 
 		<br><br>
-		<label for="dob">DOB:
+		<label for="dob">DOB:</label>
 	    <input type="digit"  id="dob" placeholder="DD/MM/YY">
-				 </label>
+				 
 		<br><br>
-		<label for="number">Phone Number:
-	    <input type="text"  id="number" placeholder="xxx-xxx-xxxx">
-				 </label>
+		<label for="tel">Phone Number:</label>
+	    <input type="text"  id="tel" placeholder="xxx-xxx-xxxx">
+				 
 		<br><br>
-		<label for="password">Password:
+		<label for="password">Password:</label>
 	       <input type="password"  id="password" placeholder="password">
-				 </label>
-		<br>
-		<br>
-		<label for="checkbox">
-	    <input type="checkbox"   id="checkbox">I agree to the TOS
-				 </label>
-		<br>
-		<br>
+				 
+		<br><br>
+		<label for="tos"></label>
+	    <input type="checkbox" id="tos">I agree to the TOS
+				 
+		<br><br>
 		<input type="submit" value="submit"></input>
 	</form>
     <script type="text/javascript" src="./script.js">
