@@ -10,43 +10,43 @@
 	<!-- the entire body must be written by student -->
 	<h2>Signup Form Car</h2>
 	<form action="/action_page.php" method="post"?
-		<label for="name">Name: </label>
-	    <input type="text" name="name" id="name" placeholder="name">
+		<label for="name">Name: *</label>
+	    <input type="text" name="name" id="name" placeholder="name" required>
 		<br><br>
-		<label for="email">Email:</label>
-	    <input type="email" name="email" id="email" placeholder="email">
+		<label for="email">Email:*</label>
+	    <input type="email" name="email" id="email" placeholder="email" required>
 		<br><br>
-		<label for="gender_m">Select Your Gender</label><br>
-	    <input type="radio"  name="gender" id="gender_m"> MALE
+		<label for="gender_m">Select Your Gender *</label><br>
+	    <input type="radio"  name="gender" id="gender_m" required> MALE
 		<br>
 		<label for="gender_f"></label>
-	    <input type="radio"  name="gender" id="gender_f"> FEMALE
+	    <input type="radio"  name="gender" id="gender_f" required> FEMALE
 		<br><br>
-		<label for="cars">Select Your Car</label>
-		<select name="cars" id="cars">
+		<label for="cars">Select Your Car *</label>
+		<select name="cars" id="cars" required>
 	    <option  value="BMW" name="cars" id="cars">BMW</option>
 		<option  value="Audi" name="cars" id="cars">Audi</option>
 			<option  value="Mercedez" name="cars"id="cars">Mercedez</option>
 				 </select>
 		<br><br>
-		<label for="age">Age:</label>
-	    <input type="age"  name="age" id="age" placeholder="age">
+		<label for="age">Age:*</label>
+	    <input type="age"  name="age" id="age" placeholder="age" required>
 				 
 		<br><br>
-		<label for="dob">DOB:</label>
-	    <input type="date"  name="dob" id="dob" placeholder="dob">
+		<label for="dob">DOB:*</label>
+	    <input type="date"  name="date" id="dob" placeholder="dob" required>
 				 
 		<br><br>
 		<label for="tel">Phone Number:</label>
 	    <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
 				 
 		<br><br>
-		<label for="password">Password:</label>
-	       <input type="password" name="password" id="password" placeholder="password">
+		<label for="password">Password:*</label>
+	       <input type="password" name="password" id="password" placeholder="password" required>
 				 
 		<br><br>
-		<label for="tos"></label>
-	    <input type="checkbox" name="tos" id="tos">I agree to the TOS
+		<label for="tos">*</label>
+	    <input type="checkbox" name="tos" id="tos" required>I agree to the TOS
 				 
 		<br><br>
 		<button type="submit" value="submit">submit</button>
