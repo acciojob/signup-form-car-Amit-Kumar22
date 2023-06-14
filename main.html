@@ -9,32 +9,32 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h2>Signup Form Car</h2>
-	<form action="/action_page.php" method="post">
-		<label for="Name">Name: </label>
-	    <input type="text" name="name" id="Name" placeholder="Name">
+	<form action="/action_page.php" method="post"?
+		<label for="name">Name: </label>
+	    <input type="text" name="name" id="name" placeholder="name">
 		<br><br>
 		<label for="email">Email:</label>
-	    <input type="text" name="email" id="email" placeholder="email">
+	    <input type="email" name="email" id="email" placeholder="email">
 		<br><br>
 		<label for="gender_m">Select Your Gender</label><br>
-	    <input type="radio"  name="gender_m" id="gender_m"> MALE
+	    <input type="radio"  name="gender" id="gender_m"> MALE
 		<br>
 		<label for="gender_f"></label>
-	    <input type="radio"  name="gender_f" id="gender_f"> FEMALE
+	    <input type="radio"  name="gender" id="gender_f"> FEMALE
 		<br><br>
 		<label for="cars">Select Your Car</label>
-		<select name="cars">
+		<select for="cars">
 	    <option  value="BMW" name="cars" id="cars">BMW</option>
 		<option  value="Audi" name="cars" id="cars">Audi</option>
 			<option  value="Mercedez" name="cars"id="cars">Mercedez</option>
 				 </select>
 		<br><br>
 		<label for="age">Age:</label>
-	    <input type="text"  name="age" id="gender" placeholder="age">
+	    <input type="text"  name="age" id="age" placeholder="age">
 				 
 		<br><br>
 		<label for="dob">DOB:</label>
-	    <input type="digit"  name="dob" id="dob" placeholder="DD/MM/YY">
+	    <input type="digit"  name="dob" id="dob" placeholder="dob">
 				 
 		<br><br>
 		<label for="tel">Phone Number:</label>
@@ -49,7 +49,7 @@
 	    <input type="checkbox" name="tos" id="tos">I agree to the TOS
 				 
 		<br><br>
-		<button>Submit</button>
+		<button type="submit" value="submit">submit</button>
 
 	</form>
     <script type="text/javascript" src="./script.js">
